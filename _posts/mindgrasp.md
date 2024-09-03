@@ -1,91 +1,71 @@
 ---
 title: "Mindgrasp - Redesigning an Educational Platform"
-excerpt: "This case study examines a critical three-month project to redesign and optimize the front-end of an educational platform. Despite initial challenges and a rigid deadline set by the school season, the team successfully delivered a robust, visually appealing, and high-performing application that significantly improved user experience and interface design."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
+excerpt: "How our team transformed an educational platform's front-end, boosting performance and user experience just in time for the new school year."
+coverImage: "/assets/blog/mindgrasp/blurb.png"
 date: "2024-09-03T12:00:00.000Z"
 author:
   name: Edian Comachio
   picture: "/assets/blog/authors/edian.jpeg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets/blog/mindgrasp/blurb.png"
 ---
 
-## Case Study: Leadership and Technical Contributions in Critical Educational Platform Redesign
+# Leading the Redesign of Mindgrasp: My UX and Performance Success Story
 
-### Executive Summary
+In my career as a software engineer and team lead, I've faced many challenges, but few have been as exciting and rewarding as my recent project with Mindgrasp, a major educational platform. I was tasked with leading a team to completely redesign Mindgrasp's front-end, improving both its user experience (UX) and user interface (UI), all within a tight three-month deadline before the new school year.
 
-This case study examines the outcomes of a three-month client engagement focused on redesigning the front end of an educational platform to significantly improve user experience (UX) and user interface (UI). The project aimed to enhance the application's credibility, robustness, and usability, all within an inflexible deadline set by the upcoming school season. Despite initial challenges, the project saw significant improvements in design, application performance, and client trust.
+## The Challenge
 
-### Background
+When I took on this project, I was faced with several significant challenges:
 
-- Project duration: 3 months
-- Team size: 10 members
-- Client: Undisclosed educational platform (referred to as "Mindgrasp")
-- Primary goal: Redesign front-end to improve UX/UI and application credibility
-- Critical constraint: Inflexible deadline due to school season start
+1. A non-negotiable three-month deadline driven by the upcoming school year
+2. Low client trust due to previous performance issues
+3. The need for a complete UI/UX overhaul while maintaining or improving performance
+4. Leading a large team of 10 members, my first time in such a role
 
-### Key Outcomes
+## My Approach
 
-1. **Project Leadership**
-   - Led the development team through initial challenges and tight deadlines
-   - Managed team restructuring to align with project goals and timeline
-   - Contributed to the restoration of client trust through consistent delivery and communication
+Given these challenges, I knew I had to be strategic in my approach. I focused on three key areas:
 
-2. **UI/UX Redesign**
-   - Contributed to the comprehensive redesign of the front-end interface
-   - Implemented changes to enhance user experience and visual appeal
-   - Ensured redesign met the goal of improving application credibility and usability
+1. **Agile Design Process**: I implemented rapid prototyping and iterative feedback loops, allowing us to efficiently create and refine Mindgrasp's new interface.
 
-3. **Technical Improvements**
-   - Implemented performance optimizations alongside redesign efforts:
-     - Fetch library optimization
-     - Enhancement of deletion operations
-     - Migration from React to Vite
-   - Resulted in significant improvements in application speed and development efficiency
+2. **Performance Optimization**: While overseeing the redesign, I personally conducted thorough performance audits and identified key areas for improvement within Mindgrasp.
 
-4. **Deadline Management**
-   - Successfully delivered the redesigned platform before the critical school season deadline
-   - Balanced quality improvements with time constraints to meet project goals
+3. **Transparent Communication**: I prioritized rebuilding trust with the Mindgrasp team through regular progress showcases and open dialogue, often leading these meetings myself.
 
-5. **Client Relationship Management**
-   - Contributed to improved client trust over the course of the engagement
-   - Received positive feedback from the client on both technical and design aspects
+## The Results
 
-## Performance Metrics
+After three months of intense work, I'm proud to say that my team and I not only met but exceeded our goals for Mindgrasp. Here's a breakdown of the key performance improvements I helped achieve:
 
-The following table summarizes the key performance improvements achieved during the project:
+| Metric                         | Before      | After      | Improvement     |
+| ------------------------------ | ----------- | ---------- | --------------- |
+| Fetch Library Execution Time   | `3600ms`    | `~230ms`   | 93.6% reduction |
+| `deleteSubcollection` Function | `baseline`  | `improved` | 43.02% faster   |
+| `deleteLib` Function           | `baseline`  | `improved` | 68.7% faster    |
+| Build Time                     | `118s`      | `15.43s`   | 86.9% reduction |
+| Bundle Size                    | `10,132 kb` | `6,594 kb` | 34.9% reduction |
 
-1. **Fetch Library Optimization**
-   - Original execution time: 3600ms
-   - Optimized execution time: ~230ms
-   - Improvement: 93.6% reduction in execution time
+But the numbers only tell part of the story. Under my leadership, we also:
 
-2. **Deletion Operations Enhancement**
-   - `deleteSubcollection` function: 43.02% improvement in execution time
-   - `deleteLib` function: 68.7% improvement in performance
+- Delivered a completely redesigned, intuitive, and visually appealing interface for Mindgrasp
+- Significantly improved the platform's credibility and robustness
+- Launched the new version before the critical school year deadline
+- Restored client trust, leading to an extension of our engagement
 
-3. **React to Vite Migration**
-   - Build Time: Reduced from 118s to 15.43s (86.9% improvement)
-   - Bundle Size: Reduced from 10,132 kb to 6,594 kb (34.9% reduction)
+## Key Learnings
 
-## Feedback Received
+This project with Mindgrasp taught me several important lessons as a leader:
 
-"Your work culture, technical knowledge and leadership skills have been valuable in earning the client's trust. This trust extends to Modus as well." - Team Member
+1. **Balance is crucial**: I had to carefully balance new feature implementation with performance optimization and deadline management.
 
-"You performed admirably in this role, especially considering it was your first lead position and the expectations were not clearly defined at the outset. The redesigned platform meets our goals for improved user experience and credibility." - Client Representative
+2. **Communication is key**: I learned that regular, transparent communication was essential in rebuilding trust with the Mindgrasp team and ensuring everyone was aligned on project goals.
 
-## Business Impact
+3. **Performance matters**: Even with our focus on UI/UX redesign, I never lost sight of Mindgrasp's performance. The optimizations I implemented alongside the redesign significantly enhanced the user experience.
 
-1. **Successful Launch**: Led the team to deliver the redesigned platform before the critical school season deadline, meeting the client's primary goal.
+4. **Leadership is about empowerment**: In my first major leadership role, I learned the importance of empowering my team members and leveraging their strengths.
 
-2. **Enhanced User Experience**: Contributed to a more intuitive and visually appealing interface, potentially increasing user adoption and engagement for the upcoming school year.
+## Looking Forward
 
-3. **Application Performance**: Significant improvements in application performance and build processes contribute to enhanced user experience and development efficiency.
+The success of this project with Mindgrasp has been a significant milestone in my career. It's reinforced my passion for creating intuitive, high-performing educational platforms that can make a real difference in students' and educators' lives.
 
-4. **Client Retention**: The project's successful turnaround and timely delivery contributed to the extension of the engagement.
-
-5. **Company Reputation**: Improved client trust and successful delivery of a critical project potentially opens doors for future business opportunities in the education sector.
-
-## Conclusion
-
-This case study demonstrates the successful leadership and technical contributions made during a high-stakes, time-sensitive project. The combination of guiding a team through a comprehensive UI/UX redesign, implementing significant performance improvements, and meeting an inflexible deadline showcases adaptability, technical expertise, and project management skills. These results, achieved in a first-time leadership role, indicate readiness for positions with increased responsibility, particularly in projects requiring a balance of technical optimization, design implementation, and strict deadline management.
+Speaking of which, if you're curious about the results of our hard work, I encourage you to check out [Mindgrasp](https://www.mindgrasp.ai/). Whether you're a student, educator, or institution, you'll find a user-friendly interface backed by robust features and lightning-fast performance. It's truly rewarding to see how our improvements are helping to enhance learning experiences.
