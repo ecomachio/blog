@@ -5,7 +5,7 @@ coverImage: "/assets/blog/mindgrasp/blurb.png"
 date: "2024-09-03T12:00:00.000Z"
 author:
   name: Edian Comachio
-  picture: "/assets/blog/authors/edian.jpeg"
+  picture: "/assets/blog/authors/profile.jpeg"
 ogImage:
   url: "/assets/blog/mindgrasp/blurb.png"
 ---
@@ -69,3 +69,5 @@ This project with Mindgrasp taught me several important lessons as a leader:
 The success of this project with Mindgrasp has been a significant milestone in my career. It's reinforced my passion for creating intuitive, high-performing educational platforms that can make a real difference in students' and educators' lives.
 
 Speaking of which, if you're curious about the results of our hard work, I encourage you to check out [Mindgrasp](https://www.mindgrasp.ai/). Whether you're a student, educator, or institution, you'll find a user-friendly interface backed by robust features and lightning-fast performance. It's truly rewarding to see how our improvements are helping to enhance learning experiences.
+
+Lastly, a big thank you to Dmytro Kovalenko for his excellent design work, which was crucial to the success of this project. The synergy between design and development was key to delivering such a transformative result for Mindgrasp.
