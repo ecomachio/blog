@@ -55,16 +55,6 @@ This case study examines the outcomes of a three-month client engagement focused
 
 The following table summarizes the key performance improvements achieved during the project:
 
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| Fetch Library Execution Time | `3600ms` | `~230ms` | 93.6% reduction |
-| `deleteSubcollection` Function | `baseline` | `improved` | 43.02% faster |
-| `deleteLib` Function | `baseline` | `improved` | 68.7% faster |
-| Build Time | `118s` | `15.43s` | 86.9% reduction |
-| Bundle Size | `10,132 kb` | `6,594 kb` | 34.9% reduction |
-
-These metrics demonstrate significant improvements in application performance and development efficiency, directly contributing to enhanced user experience and faster iteration cycles.
-
 1. **Fetch Library Optimization**
    - Original execution time: 3600ms
    - Optimized execution time: ~230ms

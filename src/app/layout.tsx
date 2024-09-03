@@ -61,7 +61,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="../github-markdown.css" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
+        className={cn(inter.className, "dark:bg-gray-950 dark:text-gray-200")}
       >
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
