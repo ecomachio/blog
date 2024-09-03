@@ -34,7 +34,7 @@ export const NoFOUCScript = (storageKey: string) => {
   };
 
   const media = matchMedia(`(prefers-color-scheme: ${DARK})`);
-
+  console.log(media);
   /** function to add remove dark class */
   window.updateDOM = () => {
     const restoreTransitions = modifyTransition();
@@ -75,6 +75,7 @@ const Switch = () => {
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, mode);
+    console.log("mode", mode);
     updateDOM();
   }, [mode]);
 

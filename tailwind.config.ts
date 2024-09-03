@@ -39,6 +39,14 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    function ({ addVariant }: { addVariant: Function }) {
+      addVariant(
+        "prose-inline-code",
+        '&.prose :where(:not(pre)>code):not(:where([class~="not-prose"] *))'
+      );
+    },
+  ],
 };
 export default config;
